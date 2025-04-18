@@ -3,6 +3,7 @@
     
 <head>
   <meta charset="UTF-8">
+  <link rel="icon" type="image/png" sizes="32x32" href="imagens/capa32.jpg">
   <title>1805</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -11,21 +12,38 @@
 
   <div class="container">
 
-    <h1>o aobum esta aqui!!!</h1>
+    <!-- navegação das faixas -->
+    <nav class="track-nav">
+      <a class="track-btn" href="emconstrucao.html">Brunilda</a>
+      <a class="track-btn" href="emconstrucao.html">Renai</a>
+      <a class="track-btn" href="emconstrucao.html">Um Desejo</a>
+      <a class="track-btn" href="emconstrucao.html">Northen Railway</a>
+      <a class="track-btn" href="emconstrucao.html">Andrômeda</a>
+    </nav>
+
+    <h1>O álbum está quase aqui!</h1>
+
+    <p id="countdown" class="countdown">ETA: carregando…</p>
+
+    <h3>Enquanto ele não chega, aqui está uma sala de espera.</h3>
 
     <div class="fotos">
-        <img src="imagens/capa.jpg" alt="Capa do álbum">
+        <img src="imagens/sala_de_espera.jpg" alt="Uma sala de espera">
     </div>
 
-    <p>toque uma musica aleatória dele abaixo:</p>
+    <!-- parte que toca musicas aleatorias -->
 
-    <div>
-        <audio id="player" controls></audio>
+    <p>Tá tão quieto... vamos ouvir umas músicas enquanto esperamos!</p>
+
+    <div id="ytplayer-container">
     </div>
 
     <div> 
-        <button id="playSong">Tocar Música Aleatória</button>
+        <button id="playSong" class="track-btn">Trocar música</button>
     </div>
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="script.js"></script>
 
   </div>
 

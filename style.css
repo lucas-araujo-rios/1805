@@ -1,23 +1,71 @@
 body {
-    background-color: #FFD3E0; 
+    background: url("imagens/fundo.png"); 
     font-family: 'Comic Sans MS', 'Arial', sans-serif; 
     text-align: center;
     margin: 0;
     padding: 0;
   }
   
+  /* coisas principais */  
   .container {
     margin: 20px auto;
     max-width: 600px;
-    background-color: #FFF;
+    background:rgba(255,255,255,0.64);
     padding: 20px;
     border: 2px solid #000;
   }
   
   .fotos img {
-    width: 200px;
+    width: 300px;
     margin: 10px;
     border: 2px solid #000;
     box-shadow: 5px 5px #ccc;
   }
-  
+
+  .fotos_plain img {
+    width: 300px;
+    margin: 10px;
+  }
+
+/* barra de navegação das faixas */
+.track-nav{
+  margin: 10px 0 25px;
+}
+
+.track-btn{
+  display:inline-block;
+  padding:6px 14px;
+  margin:0 4px;
+  font-family:'Comic Sans MS', cursive;
+  font-size:14px;
+  background:#df94c1;
+  border:2px solid #000;
+  box-shadow:3px 3px #999;
+  text-decoration:none;
+  color:#ffffff;
+  transition:all .15s ease-in-out;
+}
+
+.track-btn:hover{
+  background:#eec5dd;
+  transform:translate(-2px,-2px);
+  box-shadow:5px 5px #999;
+}
+
+/* cronômetro */
+.countdown{
+  display:inline-block;          /* vira caixinha em vez de linha inteira */
+  padding:6px 14px;
+  margin:8px 0 18px;
+
+  font-size:20px;
+  font-family:'Comic Sans MS',cursive;
+
+  background:rgba(255,255,255,0.6); /* branco translúcido */
+  border:2px solid #fff;           /* borda branca */
+  border-radius:6px;               /* cantos levemente arredondados */
+  box-shadow:3px 3px #999;         /* relevo Y2K */
+
+  /* opcional — texto preto sempre visível sobre o fundo claro */
+  color:#000;
+}
