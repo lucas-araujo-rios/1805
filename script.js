@@ -39,8 +39,8 @@ let player;           // objeto YT.Player
 // 1) Função que a API chama assim que estiver pronta
 function onYouTubeIframeAPIReady () {
   player = new YT.Player('ytplayer-container', {
-    width: 320,
-    height: 180,
+    width: 480,
+    height: 270,
     videoId: playlist[0],       // carrega algo só para inicializar
     playerVars: {
       rel: 0,
