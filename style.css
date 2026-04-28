@@ -1,6 +1,6 @@
 body {
     background: url("imagens/fundo.png"); 
-    font-family: 'Comic Sans MS', 'Arial', sans-serif; 
+    font-family: 'Comic Sans MS','Comic Neue','Helvetica';
     text-align: center;
     margin: 0;
     padding: 0;
@@ -36,7 +36,7 @@ body {
   display:inline-block;
   padding:6px 14px;
   margin:0 4px;
-  font-family:'Comic Sans MS', cursive;
+  font-family:'Comic Sans MS','Comic Neue','Helvetica';
   font-size:14px;
   background:#df94c1;
   border:2px solid #000;
@@ -60,7 +60,7 @@ body {
   margin:8px 0 18px;
 
   font-size:20px;
-  font-family:'Comic Sans MS',cursive;
+  font-family:'Comic Sans MS','Comic Neue','Helvetica';
 
   background:rgba(255,255,255,0.6); /* branco translúcido */
   border:2px solid #fff;           /* borda branca */
